@@ -19,3 +19,4 @@ Current Features
 Future Plans
 ------------
 * Provide a link to the institution page on a user's profile  ( which can lead to many more things )
+* [chrome extension menu](chrome://extensions)

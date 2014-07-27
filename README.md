@@ -5,7 +5,7 @@ A chrome extension for some subtle changes in the website.
 
 Current Features
 --------------------
-* Points displayed beside the problems' name
+* Points displayed conveniently
 
   ![Points displayed beside all problems](https://github.com/pulkitsharma07/Better-SPOJ/blob/master/ad_all.jpg "all classical problems")
 

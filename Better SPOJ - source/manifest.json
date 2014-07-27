@@ -1,10 +1,10 @@
 {
   "name": "Better SPOJ",
-  "version": "1",
-  "description": "Some tweaks for the site.",
+  "version": "1.0.0",
+  "description": "Some subtle tweaks for the site.",
   "background": {"page": "background.html"},
   "manifest_version": 2,
-
+  "author": "Pulkit Sharma",
   "browser_action": {
     "name": "Manipulate DOM",
     "default_icon": "icon.png"
@@ -15,6 +15,6 @@
   "content_scripts": [ {
     "js": [ "jquery-1.11.1.min.js", "background.js" ],
     "matches": [ "http://www.spoj.com/*"]
-  }],
+  }]
   
 }

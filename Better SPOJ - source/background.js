@@ -37,7 +37,7 @@ if(matchExact(prob_page,loc))
       var prob_name_ind = 1;
     }
 
-    var prob_users_ind = prob_name_ind + 2; //Problem's accepted user count is 
+    var prob_users_ind = prob_name_ind + 2; //Problem's accepted user count is here
 
     //Number of rows
     num = problem_table.rows.length;
@@ -71,7 +71,7 @@ if(matchExact(spec_page,loc))
    xhr.open("GET", "/ranks/"+code+"/", true);
    xhr.onreadystatechange = function() {
    if (xhr.readyState == 4) {
-     page_code = String(xhr.responseText); //page code now has the entire HTML code for this page(the 'Best Solutions' page)
+     page_code = String(xhr.responseText); //page_code now has the entire HTML code for this page(the 'Best Solutions' page)
      var zz = $(page_code); // Parse DOM
      //Get the Users Accepted DOM element
      var pq = zz.find("#maintable > tbody > tr:nth-child(2) > td.content0 > table > tbody > tr:nth-child(2) > td > table.problems > tbody > tr.lightrow > td:nth-child(1)");

@@ -1,6 +1,6 @@
 {
   "name": "Better SPOJ",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some subtle tweaks for the site.",
   "background": {"page": "background.html"},
   "manifest_version": 2,

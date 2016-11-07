@@ -1,6 +1,7 @@
 NO LONGER WORKING WITH THE NEW CHANGES TO SPOJ
 
 
+
 Better-SPOJ
 ===========
 
